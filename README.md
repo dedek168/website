@@ -1,2 +1,2 @@
-# website
-Personal website
+# CV
+Edy Wijaya Personal CV
