@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tweets-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px;
+}
+
+.tweet {
+    flex: 1 1 calc(33% - 20px); /* Adjust the percentage to fit your needs */
+    box-sizing: border-box;
+    max-width: 400px; /* Adjust the max-width if needed */
+}
+
+@media (max-width: 768px) {
+    .tweet {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .tweet {
+        flex: 1 1 100%;
+    }
+}
